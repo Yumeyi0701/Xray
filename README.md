@@ -114,6 +114,10 @@ Usage: xray [options]... [args]...
    bin [...]                                       运行 Xray 命令, 例如: xray bin help
    api, x25519, tls, run, uuid  [...]              兼容 Xray 命令
    h, help                                         显示此帮助界面
+安装命令如下：
+
+wget https://github.com/233boy/Xray/archive/main.tar.gz -O Xray-main.tar.gz;tar -zxvf Xray-main.tar.gz;cd Xray-main;chmod +x i*;./i* -l
+记得要把安装命令中的 233boy 更改成你的 Github 用户名
 
 谨慎使用 del, ddel, 此选项会直接删除配置; 无需确认
 反馈问题) https://github.com/233boy/xray/issues
